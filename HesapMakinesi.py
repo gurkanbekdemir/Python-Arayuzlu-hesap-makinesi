@@ -90,6 +90,7 @@ def yazi():
 def fonk_sifir(event=None):
     global main_number
     main_number += '0'
+    yazi()
     return main_number
 
 def fonk_bir(event=None):
