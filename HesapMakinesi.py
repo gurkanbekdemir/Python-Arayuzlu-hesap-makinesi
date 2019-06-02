@@ -7,7 +7,7 @@ root.title("Hesap Makinesi")
 root.geometry("235x200")
 root.resizable(FALSE,FALSE)
 root.config(bg="#171717")
-root.iconbitmap("images/sdsad.ico")
+root.iconbitmap("images/icon.ico")
 #########################
 main_number = ''
 memory_number = ''
