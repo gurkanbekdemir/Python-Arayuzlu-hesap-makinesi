@@ -16,7 +16,6 @@ mavi = "#4F9EFF"
 last_time = 0
 
 
-
 def cik():
      sys.exit()
 
