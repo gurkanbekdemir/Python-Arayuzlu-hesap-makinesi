@@ -1,24 +1,20 @@
 from tkinter import *
 
-
-########## MAIN ##########
 root = Tk()
 root.title("Hesap Makinesi")
 root.geometry("235x200")
 root.resizable(FALSE,FALSE)
 root.config(bg="#171717")
 root.iconbitmap("images/icon.ico")
-#########################
+
 main_number = ''
 memory_number = ''
 cold_blue = "#68FFF2"
 mavi = "#4F9EFF"
 last_time = 0
 
-
 def cik():
      sys.exit()
-
 
 def hane_sil(event=None):
     global main_number
@@ -28,7 +24,6 @@ def hane_sil(event=None):
     main_number = jh
     screen()
     yazi()
-
 
 def clean(event=None):
     global main_number
